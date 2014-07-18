@@ -6,6 +6,7 @@
   //Output: 7 -> 0 -> 8
   
   //Solution: Add each node starting from the left. 
+  //Resultant list is either equal to the lengths of the lists or 1 node longer than the longer list.
   //When the lists are of unequal length add the carry to the longer list.
   
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) 
